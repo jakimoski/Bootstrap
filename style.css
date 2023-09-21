@@ -3,6 +3,7 @@
   --dark-primary: #333333;
   --dark-secondary: #212121;
   --dark-primary-50: rgba(51, 51, 51, 0.5);
+  --dark-secondary-70: rgba(33, 33, 33, 0.7);
   --red-primary: #ff0000;
   --blue-primary: #334fff;
 }
@@ -55,23 +56,25 @@
 }
 
 .get-started {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./img/lights.jpg);
+  background: linear-gradient(
+      var(--dark-secondary-70),
+      var(--dark-secondary-70)
+    ),
+    url(./img/lights.jpg) no-repeat center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .video-modal {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./img/media.jpg);
+  background: linear-gradient(
+      var(--dark-secondary-70),
+      var(--dark-secondary-70)
+    ),
+    url(./img/media.jpg) no-repeat center;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .modal-content {
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 5px var(--dark-primary-50);
 }
 /* END OF HOMEPAGE STYLES*/
 
