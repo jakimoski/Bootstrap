@@ -4,7 +4,7 @@ For this asingment i deloped a 5 pages website using Bootstrap.
 
 ## Project Bootstrap Live Preview
 
-<a href="https://jakimoski.github.io/Bootstrap/" style="color:white"  target="_blank">Bootstrap</a>
+Live preview: <a href="https://jakimoski.github.io/Bootstrap/" style="color:white"  target="_blank">Bootstrap</a>
 
 # Getting Started
 
